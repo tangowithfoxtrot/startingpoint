@@ -47,3 +47,6 @@ if [[ -n "$flatpaks" ]]; then
         yq -i ".screens.applications.values.groups.Custom.packages += [{\"$pkg\": \"$pkg\"}]" /usr/etc/yafti.yml
     done
 fi
+
+# fix ssh host key permissions
+chmod 600 /etc/ssh/ssh_host_*
