@@ -2,11 +2,11 @@
 # If you are looking at this file in your root directory on your computer, editing it does nothing.
 
 # The image will be at ghcr.io/yourusername/name
-name: startingpoint
+name: startingpoint-nvidia
 
 # The native container image to build on top of
 # Warning: Non-uBlue images might function unexpectly
-base-image: ghcr.io/ublue-os/bluefin
+base-image: ghcr.io/ublue-os/bluefin-nvidia
 
 # What fedora version to use. Use an explicit version or `latest`.
 # If you use `latest`, you will be automatically updated
@@ -44,7 +44,6 @@ rpms:
   - virt-install
   - virt-manager
   - wireguard-tools
-  # add your own below
 
 # These Flatpaks (from flathub) will be available for install on boot
 # this is just an example selection.
