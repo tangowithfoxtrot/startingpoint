@@ -40,6 +40,7 @@ rpms:
   - libadwaita # libadwaita comes with silverblue, but not with other flavors
   - libvirt-client
   - libvirt-daemon-kvm
+  - polkit-gnome
   - qemu-kvm
   - virt-install
   - virt-manager
