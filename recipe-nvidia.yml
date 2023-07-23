@@ -28,7 +28,7 @@ extrarepos:
   # example:
   # - https://packages.microsoft.com/yumrepos/vscode/config.repo
   # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-37/atim-starship-fedora-37.repo
-
+    - https://packages.microsoft.com/yumrepos/vscode/config.repo
 # These rpms will be installed from the fedora repository
 # using rpm-ostree and will be preinstalled in the final image
 rpms:
